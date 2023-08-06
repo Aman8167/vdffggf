@@ -1,0 +1,44 @@
+
+.App{
+  display: flex;
+  font-family:'IBM Plex Sana  Thai Looped',
+  sans-serif ;
+}
+.body_container{
+  flex:1;
+  background-color:lightpink;
+}
+.body_container{
+  height:120vh;
+}
+.table_container{
+  margin-top: 5%;
+margin-left: 10%;
+  width:75%;
+  height:60%;
+
+
+}
+.table_container thead{
+  font-size: 9px;
+  padding:2px;
+  text-align: center;
+  font-weight: bold;
+}
+.table_container tbody{
+  text-align: center;
+  font-size: 8px;
+  font-weight: bold;
+
+}
+.table_container tbody tr button{
+  color:white;
+  border: 3px solid lightpink;
+  padding:10px;
+  border-radius: 5px;
+  background-color: skyblue;
+}
+.table_container tbody tr button:hover{
+  cursor:pointer;
+  border:5px solid white;
+}
